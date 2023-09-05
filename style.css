@@ -1,0 +1,97 @@
+
+
+.navbar{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 0;
+  cursor: pointer;
+  position: sticky;
+}
+.intro{
+  display: flex;
+  justify-content: center;
+  text-align: left;
+
+}
+.leftnav{
+  width: 60%;
+  display: flex;
+  align-items: center;
+}
+.rightnav{
+  display: flex;
+  width: 30%;
+
+}
+.rightnav li{
+  list-style: none;
+  padding: 20px 20px;
+}
+.rightnav li a{
+  color: black;
+  text-decoration: line;
+  border: 2px solid black;
+  padding: 5px;
+  border-radius: 6px;
+}
+
+.leftnav h3 {
+  width: 30%;
+}
+.hii {
+  justify-content: center;
+  display: flex;
+}
+
+.hii h3{
+  font-family: 'Nunito Sans', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 400px;
+  margin-top: 100px;
+}
+
+.hii h4{
+  font-size: 320px;
+  margin-top: 107px;
+  color: #ff3db8;
+}
+
+.section{
+  display: flex;
+  text-align: center;
+  margin-top: -250px;
+  margin-left: 150px;
+}
+.bottom{
+  font-size: 45px;
+  align-items: center;
+  display: flex;
+}
+
+.bottom strong{
+  color: #ff3db8;
+  display: flex;
+}
+.button{
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  border-width: 2px;
+  cursor: pointer;
+  padding: 30px;
+  color: #ff3db8;
+  margin-left: 40px;
+
+}
+.button a{
+  color: #ff3db8;
+}
+a:hover{
+  background-color: gray;
+  transition: all 400ms;
+}
+button:hover{
+  background-color: gray;
+  transition: all 400ms;
+}
